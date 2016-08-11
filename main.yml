@@ -2,6 +2,6 @@
 
   tasks:
     # essentials:
+    - include: tasks/homebrew.yml
 
     # development-related:
-    
