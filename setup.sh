@@ -24,3 +24,6 @@ fi
 # Print Python and Ansible versions
 # python --version
 # ansible --version
+
+# Run Ansible playbook
+ansible-playbook main.yml
