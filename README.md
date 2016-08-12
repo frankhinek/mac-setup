@@ -11,9 +11,18 @@ El Capitan.
 - [x] Install Homebrew
 - [x] Install Common macOS Utilities
 - [x] Download dotfiles
-- [ ] Install zsh
-- [ ] Change default shell to zsh
+- [x] Install zsh
+- [x] Change Default Shell to zsh
+- [ ] Run dotfiles Bootstrap Script
+- [ ] Install Chrome
+- [ ] Install Dropbox
+- [ ] Install iTerm2
+- [ ] Install Atom
+- [ ] Install Slack
 - [ ] Install Docker for Mac
+- [ ] Install Node.js
+- [ ] Install Ruby
+- [ ] Install Python
 
 ## Thanks
 
