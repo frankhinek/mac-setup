@@ -1,0 +1,9 @@
+- name: Install macOS core packages
+  package: name={{ item }}
+  with_items:
+    - grc
+    - curl
+    - git
+    - vim
+    - wget
+    - tree

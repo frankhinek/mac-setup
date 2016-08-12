@@ -9,7 +9,10 @@ El Capitan.
 ## Roadmap
 
 - [x] Install Homebrew
-- [ ] Install ZSH
+- [x] Install Common macOS Utilities
+- [ ] Download dotfiles
+- [ ] Install zsh
+- [ ] Change default shell to zsh
 - [ ] Install Docker for Mac
 
 ## Thanks

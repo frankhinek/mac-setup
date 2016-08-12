@@ -1,7 +1,20 @@
+# This is necessary due to the way the Ansible setup process inherits
+# variables from the play.  The system path is prepended with /usr/local/bin
+# below to ensure the system on which the playbook is run selects the correct
+# copy of zsh, etc.  In other words, to make sure it uses /usr/local/bin/zsh
+# installed with Homebrew and not the older macOS /bin/zsh.
 - hosts: localhost
+  tasks:
+    - command: echo "$PATH"
+      register: system_path
+
+- hosts: localhost
+  environment:
+    PATH: "/usr/local/bin:{{ system_path.stdout }}"
 
   tasks:
     # essentials:
     - include: tasks/homebrew.yml
+    - include: tasks/core.yml
 
     # development-related:

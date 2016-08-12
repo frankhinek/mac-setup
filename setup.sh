@@ -26,4 +26,4 @@ fi
 # ansible --version
 
 # Run Ansible playbook
-ansible-playbook main.yml
+ansible-playbook main.yml --ask-become-pass
