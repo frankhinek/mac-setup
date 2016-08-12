@@ -10,7 +10,7 @@ El Capitan.
 
 - [x] Install Homebrew
 - [x] Install Common macOS Utilities
-- [ ] Download dotfiles
+- [x] Download dotfiles
 - [ ] Install zsh
 - [ ] Change default shell to zsh
 - [ ] Install Docker for Mac

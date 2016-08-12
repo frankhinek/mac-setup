@@ -25,5 +25,5 @@ fi
 # python --version
 # ansible --version
 
-# Run Ansible playbook
+echo "Running Ansible playbook..."
 ansible-playbook main.yml --ask-become-pass
