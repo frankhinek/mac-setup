@@ -14,7 +14,7 @@ El Capitan.
 - [x] Download dotfiles
 - [x] Install zsh
 - [x] Change Default Shell to zsh
-- [ ] Run dotfiles Bootstrap Script
+- [x] Run dotfiles Bootstrap Script
 - [ ] Install Chrome
 - [ ] Install Dropbox
 - [ ] Install iTerm2
