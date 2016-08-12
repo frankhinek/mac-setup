@@ -1,0 +1,3 @@
+# Create the ~/Code directory if it doesn't exist
+- name: Create User Code directory
+  file: path=/Users/{{ ansible_env.USER }}/Code state=directory mode=0700
