@@ -1,0 +1,6 @@
+- name: Install DiffMerge
+  homebrew_cask: name=diffmerge
+  become: true
+
+- name: Install diff-so-fancy package
+  package: name=diff-so-fancy

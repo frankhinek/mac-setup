@@ -16,6 +16,7 @@
     # essentials:
     - include: tasks/homebrew.yml
     - include: tasks/core.yml
+    - include: tasks/diff.yml
     - include: tasks/dotfiles.yml
     - include: tasks/zsh.yml
 

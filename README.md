@@ -10,6 +10,7 @@ El Capitan.
 
 - [x] Install Homebrew
 - [x] Install Common macOS Utilities
+- [x] Install diffmerge and diff-so-fancy
 - [x] Download dotfiles
 - [x] Install zsh
 - [x] Change Default Shell to zsh
