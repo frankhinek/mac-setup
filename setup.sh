@@ -29,4 +29,4 @@ echo "Running Ansible playbook..."
 ansible-playbook main.yml --ask-become-pass
 
 echo "Running dotfiles bootstrap script..."
-test -d ~/.dotfiles && cd ~/.dotfiles && ./script/bootstrap
+test -d ~/.dotfiles && cd ~/.dotfiles && ./scripts/bootstrap.sh
