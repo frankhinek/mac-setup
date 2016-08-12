@@ -4,4 +4,3 @@
     dest=~/.dotfiles
     version=master
     update=yes
-  become: false
