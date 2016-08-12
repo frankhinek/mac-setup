@@ -25,6 +25,9 @@ fi
 # python --version
 # ansible --version
 
+# Exit immediately if a command exits with a non-zero status
+set -e
+
 echo "Running Ansible playbook..."
 ansible-playbook main.yml --ask-become-pass
 
