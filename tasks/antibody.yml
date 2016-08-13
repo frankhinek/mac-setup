@@ -1,0 +1,7 @@
+- name: Add antibody tap
+  homebrew_tap: tap={{ item }}
+  with_items:
+    - getantibody/homebrew-antibody
+
+- name: Install antibody package
+  package: name=antibody
