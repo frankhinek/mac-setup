@@ -1,0 +1,5 @@
+- name: Add font using Homebrew Cask
+  homebrew_cask: name={{ item }}
+  with_items:
+    - font-open-sans
+    - font-camingocode
