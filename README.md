@@ -17,7 +17,7 @@ El Capitan.
 - [x] Run dotfiles Bootstrap Script
 - [ ] Install Chrome
 - [ ] Install Dropbox
-- [ ] Install iTerm2
+- [x] Install iTerm2
 - [ ] Install Atom
 - [ ] Install Slack
 - [ ] Install Docker for Mac
