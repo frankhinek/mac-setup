@@ -1,0 +1,35 @@
+- name: Store the NVM installation directory in a variable
+  set_fact:
+    NVM_DIR: "{{ ansible_env.HOME }}/.nvm"
+
+- name: Check if nvm is already installed
+  stat: path="{{ NVM_DIR }}"
+  register: nvm_installed
+
+- name: Clone NVM repository from GitHub if NVM is not installed yet
+  git: repo=https://github.com/creationix/nvm.git
+       dest="{{ NVM_DIR }}"
+  when: nvm_installed.stat.exists == false
+
+- name: Check to confirm if the NVM installation was successful
+  stat: path="{{ NVM_DIR }}"
+  register: nvm_installed
+
+- name: Get new tags from NVM GitHub repository if NVM is already installed
+  shell: "git fetch --tags"
+  args:
+    chdir: "{{ NVM_DIR }}"
+  when: nvm_installed.stat.exists
+
+- name: Get latest tag name from NVM GitHub repository if NVM is already installed
+  shell: "git describe --tags `git rev-list --tags --max-count=1`"
+  args:
+    chdir: "{{ NVM_DIR }}"
+  register: latest_tag
+  when: nvm_installed.stat.exists
+
+- name: Check out the latest tag from the NVM GitHub repository if NVM is already installed
+  git: repo=https://github.com/creationix/nvm.git
+       dest="{{ NVM_DIR }}"
+       version={{ latest_tag.stdout }}
+  when: nvm_installed.stat.exists

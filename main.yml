@@ -25,3 +25,4 @@
     - include: tasks/terminal.yml
 
     # development-related:
+    - include: tasks/nodejs.yml
