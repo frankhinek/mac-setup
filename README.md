@@ -21,7 +21,7 @@ El Capitan.
 - [ ] Install Atom
 - [ ] Install Slack
 - [ ] Install Docker for Mac
-- [ ] Install Node.js
+- [x] Install Node.js
 - [ ] Install Ruby
 - [ ] Install Python
 
