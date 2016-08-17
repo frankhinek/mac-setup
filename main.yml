@@ -26,3 +26,4 @@
 
     # development-related:
     - include: tasks/nodejs.yml
+    - include: tasks/terraform.yml
