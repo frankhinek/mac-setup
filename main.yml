@@ -24,6 +24,13 @@
     - include: tasks/antibody.yml
     - include: tasks/terminal.yml
 
+    # common applications:
+    - include: tasks/chrome.yml
+    - include: tasks/dropbox.yml
+    - include: tasks/slack.yml
+
     # development-related:
     - include: tasks/nodejs.yml
     - include: tasks/terraform.yml
+    - include: tasks/atom.yml
+    - include: tasks/docker.yml

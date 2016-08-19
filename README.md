@@ -15,12 +15,12 @@ El Capitan.
 - [x] Install zsh
 - [x] Change Default Shell to zsh
 - [x] Run dotfiles Bootstrap Script
-- [ ] Install Chrome
-- [ ] Install Dropbox
+- [x] Install Chrome
+- [x] Install Dropbox
 - [x] Install iTerm2
-- [ ] Install Atom
-- [ ] Install Slack
-- [ ] Install Docker for Mac
+- [x] Install Atom
+- [x] Install Slack
+- [x] Install Docker for Mac
 - [x] Install Node.js
 - [ ] Install Ruby
 - [ ] Install Python
