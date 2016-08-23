@@ -31,6 +31,5 @@
 
     # development-related:
     - include: tasks/nodejs.yml
-    - include: tasks/terraform.yml
     - include: tasks/atom.yml
     - include: tasks/docker.yml
