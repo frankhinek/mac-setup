@@ -8,3 +8,9 @@
     - wget
     - tree
     - ssh-copy-id
+
+# By default, curl isn't symlinked to /usr/bin/local as a precaution since
+# curl is used by many other applications.  This task ensures that the
+# Homebrew-installed curl is used.
+- name: Ensure curl is linked
+  homebrew: name=curl state=linked install_options=force
