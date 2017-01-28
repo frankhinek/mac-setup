@@ -16,9 +16,9 @@ fi
 echo "Checking for Ansible..."
 if test ! "$(which ansible)"; then
   echo "Installing ansible..."
-  brew install ansible
+  pip install ansible
 else
-  brew upgrade ansible > /dev/null 2>&1
+  pip install ansible --upgrade > /dev/null 2>&1
 fi
 
 # Print Python and Ansible versions
