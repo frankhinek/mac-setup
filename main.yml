@@ -34,3 +34,4 @@
     - include: tasks/nodejs.yml
     - include: tasks/atom.yml
     - include: tasks/docker.yml
+    - include: tasks/anaconda.yml
