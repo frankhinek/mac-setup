@@ -4,4 +4,4 @@
     - getantibody/homebrew-antibody
 
 - name: Install antibody package
-  package: name=antibody
+  package: name=getantibody/tap/antibody
