@@ -1,2 +1,2 @@
 - name: Install latest stable beta of iTerm2 using Homebrew caskroom/versions
-  homebrew_cask: name=iterm2
+  homebrew_cask: name=iterm2-beta
