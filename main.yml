@@ -35,3 +35,4 @@
     - include: tasks/atom.yml
     - include: tasks/docker.yml
     - include: tasks/anaconda.yml
+    - include: tasks/virtualbox.yml
