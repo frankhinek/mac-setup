@@ -2,12 +2,16 @@
   package: name={{ item }}
   with_items:
     - grc
-    - curl
     - git
     - vim
-    - wget
     - tree
     - ssh-copy-id
+
+- name: Install wget with openssl
+  homebrew: name=wget state=present install_options=with-libressl
+
+- name: Install curl with openssl
+  homebrew: name=curl state=present install_options=with-openssl
 
 # By default, curl isn't symlinked to /usr/bin/local as a precaution since
 # curl is used by many other applications.  This task ensures that the
