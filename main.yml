@@ -37,3 +37,6 @@
     - include: tasks/anaconda.yml
     - include: tasks/virtualbox.yml
     - include: tasks/vagrant.yml
+
+    # microsoft-related:
+    - include: tasks/powershell.yml

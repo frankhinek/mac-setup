@@ -1,0 +1,11 @@
+- name: Install Microsoft .NET Core
+  homebrew_cask: name=dotnet
+
+- name: Install Microsoft PowerShell
+  homebrew_cask: name=powershell
+
+- name: Azure RM NetCore Module Install
+  command: powershell Install-Module AzureRM.NetCore.Preview -Force -Scope CurrentUser
+
+- name: Azure RM NetCore Module Import
+  command: powershell Import-Module AzureRM.NetCore.Preview
