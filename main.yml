@@ -40,3 +40,4 @@
 
     # microsoft-related:
     - include: tasks/powershell.yml
+    - include: tasks/visual-studio-code.yml
