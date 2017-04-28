@@ -21,7 +21,6 @@
     - include: tasks/diff.yml
     - include: tasks/dotfiles.yml
     - include: tasks/zsh.yml
-    - include: tasks/antibody.yml
     - include: tasks/terminal.yml
 
     # common applications:
