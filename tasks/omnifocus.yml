@@ -1,0 +1,2 @@
+- name: Install OmniFocus
+  homebrew_cask: name=omnifocus

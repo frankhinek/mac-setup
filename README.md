@@ -23,7 +23,12 @@ El Capitan.
 - [x] Install Docker for Mac
 - [x] Install Node.js
 - [ ] Install Ruby
-- [x] Install Python
+- [x] Install Python using anaconda
+- [x] Install PowerShell
+- [x] Install Visual Studio Code
+- [x] Install VirtualBox
+- [x] Install Vagrant
+- [x] Install OmniFocus
 
 ## Thanks
 

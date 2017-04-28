@@ -29,6 +29,7 @@
     - include: tasks/chrome.yml
     #- include: tasks/dropbox.yml
     - include: tasks/slack.yml
+    - include: tasks/omnifocus.yml
 
     # development-related:
     - include: tasks/nodejs.yml
