@@ -1,5 +1,16 @@
-- name: Add font using Homebrew Cask
+- name: Add monospace fonts using Homebrew Cask
   homebrew_cask: name={{ item }}
   with_items:
     - font-open-sans
     - font-camingocode
+
+- name: Add presentation fonts using Homebrew Cask
+  homebrew_cask: name={{ item }}
+  with_items:
+    - font-ubuntu
+    - font-fontawesome
+    - font-lato
+    - font-poiret-one
+    - font-questrial
+    - font-roboto
+    - font-roboto-condensed
