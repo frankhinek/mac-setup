@@ -23,7 +23,7 @@ El Capitan.
 - [x] Install Docker for Mac
 - [x] Install Node.js
 - [ ] Install Ruby
-- [ ] Install Python
+- [x] Install Python
 
 ## Thanks
 

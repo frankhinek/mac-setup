@@ -13,12 +13,18 @@ else
   brew update
 fi
 
+echo "Checking for pip..."
+if test ! "$(which pip)"; then
+  echo "Installing pip..."
+  sudo easy_install pip
+fi
+
 echo "Checking for Ansible..."
 if test ! "$(which ansible)"; then
   echo "Installing ansible..."
-  pip install ansible
+  sudo pip install ansible --quiet
 else
-  pip install ansible --upgrade > /dev/null 2>&1
+  sudo pip install ansible --upgrade > /dev/null 2>&1
 fi
 
 # Print Python and Ansible versions
