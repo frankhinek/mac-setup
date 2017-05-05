@@ -29,6 +29,7 @@
     #- include: tasks/dropbox.yml
     - include: tasks/slack.yml
     - include: tasks/omnifocus.yml
+    - include: tasks/evernote.yml
 
     # development-related:
     - include: tasks/nodejs.yml

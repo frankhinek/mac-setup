@@ -29,6 +29,7 @@ El Capitan.
 - [x] Install VirtualBox
 - [x] Install Vagrant
 - [x] Install OmniFocus
+- [x] Install Evernote
 
 ## Thanks
 
