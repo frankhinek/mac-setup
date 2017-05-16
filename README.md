@@ -30,6 +30,7 @@ El Capitan.
 - [x] Install Vagrant
 - [x] Install OmniFocus
 - [x] Install Evernote
+- [x] Install Microsoft Remote Desktop Beta
 
 ## Thanks
 

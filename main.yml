@@ -42,3 +42,4 @@
     # microsoft-related:
     - include: tasks/powershell.yml
     - include: tasks/visual-studio-code.yml
+    - include: tasks/remote-desktop.yml
