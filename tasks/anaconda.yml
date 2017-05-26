@@ -1,2 +1,3 @@
+# Note that Homebrew currently installs to /usr/local/anaconda3
 - name: Install Anaconda 3
   homebrew_cask: name=anaconda
