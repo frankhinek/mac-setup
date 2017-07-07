@@ -30,6 +30,7 @@
     - include: tasks/slack.yml
     - include: tasks/omnifocus.yml
     - include: tasks/evernote.yml
+    - include: tasks/kindle.yml
 
     # development-related:
     - include: tasks/nodejs.yml
