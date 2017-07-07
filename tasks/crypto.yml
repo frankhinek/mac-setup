@@ -1,0 +1,8 @@
+- name: Install SSH Copy ID
+  package: name=ssh-copy-id
+
+- name: Install GPG Package
+  package: name=gpg
+
+- name: Install Keybase
+  homebrew_cask: name=keybase

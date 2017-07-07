@@ -22,6 +22,7 @@
     - include: tasks/dotfiles.yml
     - include: tasks/zsh.yml
     - include: tasks/terminal.yml
+    - include: tasks/crypto.yml
 
     # common applications:
     #- include: tasks/alfred.yml
