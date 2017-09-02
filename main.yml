@@ -46,3 +46,6 @@
     - include: tasks/powershell.yml
     - include: tasks/visual-studio-code.yml
     - include: tasks/remote-desktop.yml
+
+    # OMSCS program:
+    - include: tasks/pycharm.yml
