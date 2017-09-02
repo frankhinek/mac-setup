@@ -1,0 +1,7 @@
+- name: Install TeXstudio
+  homebrew_cask: name=texstudio
+  tags: new
+
+- name: Install MacTeX
+  homebrew_cask: name=mactex
+  tags: new

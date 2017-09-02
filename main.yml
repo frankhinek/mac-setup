@@ -49,3 +49,4 @@
 
     # OMSCS program:
     - include: tasks/pycharm.yml
+    - include: tasks/latex.yml
