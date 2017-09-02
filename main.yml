@@ -40,6 +40,7 @@
     - include: tasks/anaconda.yml
     - include: tasks/virtualbox.yml
     - include: tasks/vagrant.yml
+    - include: tasks/terraform.yml
 
     # microsoft-related:
     - include: tasks/powershell.yml

@@ -1,0 +1,2 @@
+- name: Install Terraform
+  package: name=terraform
