@@ -14,39 +14,39 @@
 
   tasks:
     # essentials:
-    - include: tasks/homebrew.yml
-    - include: tasks/fonts.yml
-    - include: tasks/directories.yml
-    - include: tasks/core.yml
-    - include: tasks/diff.yml
-    - include: tasks/dotfiles.yml
-    - include: tasks/zsh.yml
-    - include: tasks/terminal.yml
-    - include: tasks/crypto.yml
+    - include_tasks: tasks/homebrew.yml
+    - include_tasks: tasks/fonts.yml
+    - include_tasks: tasks/directories.yml
+    - include_tasks: tasks/core.yml
+    - include_tasks: tasks/diff.yml
+    - include_tasks: tasks/dotfiles.yml
+    - include_tasks: tasks/zsh.yml
+    - include_tasks: tasks/terminal.yml
+    - include_tasks: tasks/crypto.yml
 
     # common applications:
-    #- include: tasks/alfred.yml
-    - include: tasks/chrome.yml
-    #- include: tasks/dropbox.yml
-    - include: tasks/slack.yml
-    - include: tasks/omnifocus.yml
-    - include: tasks/evernote.yml
-    - include: tasks/kindle.yml
+    #- include_tasks: tasks/alfred.yml
+    - include_tasks: tasks/chrome.yml
+    #- include_tasks: tasks/dropbox.yml
+    - include_tasks: tasks/slack.yml
+    - include_tasks: tasks/omnifocus.yml
+    - include_tasks: tasks/evernote.yml
+    - include_tasks: tasks/kindle.yml
 
     # development-related:
-    - include: tasks/nodejs.yml
-    - include: tasks/atom.yml
-    - include: tasks/docker.yml
-    - include: tasks/anaconda.yml
-    - include: tasks/virtualbox.yml
-    - include: tasks/vagrant.yml
-    - include: tasks/terraform.yml
+    - include_tasks: tasks/nodejs.yml
+    - include_tasks: tasks/atom.yml
+    - include_tasks: tasks/docker.yml
+    - include_tasks: tasks/anaconda.yml
+    - include_tasks: tasks/virtualbox.yml
+    - include_tasks: tasks/vagrant.yml
+    - include_tasks: tasks/terraform.yml
 
     # microsoft-related:
-    - include: tasks/powershell.yml
-    - include: tasks/visual-studio-code.yml
-    - include: tasks/remote-desktop.yml
+    - include_tasks: tasks/powershell.yml
+    - include_tasks: tasks/visual-studio-code.yml
+    - include_tasks: tasks/remote-desktop.yml
 
     # OMSCS program:
-    - include: tasks/pycharm.yml
-    - include: tasks/latex.yml
+    - include_tasks: tasks/pycharm.yml
+    - include_tasks: tasks/latex.yml
