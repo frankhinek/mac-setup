@@ -4,8 +4,14 @@
 - name: Install Microsoft PowerShell
   homebrew_cask: name=powershell
 
-- name: Azure RM NetCore Module Install
-  command: powershell Install-Module AzureRM.NetCore.Preview -Force -Scope CurrentUser
+- name: Install Rollup Module for ARM Cmdlets
+  command: pwsh -c "{Install-Module AzureRM}"
 
-- name: Azure RM NetCore Module Import
-  command: powershell Import-Module AzureRM.NetCore.Preview
+- name: Import Rollup Module for ARM Cmdlets
+  command: pwsh -c "{Import-Module AzureRM}"
+
+- name: Install Rollup Module for .NET Core Cmdlets
+  command: pwsh -c "{Install-Module AzureRM.NetCore}"
+
+- name: Import Rollup Module for .NET Core Cmdlets
+  command: pwsh -c "{Import-Module AzureRM.NetCore}"
