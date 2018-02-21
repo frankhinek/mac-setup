@@ -3,34 +3,23 @@
 
 ## Compatibility
 
-This Ansible playbook and the associated tasks have only been tested on macOS X
-El Capitan.
+This Ansible playbook and the associated tasks have only been tested on macOS
+Sierra and High Sierra.
 
-## Roadmap
+## Usage
 
-- [x] Install Homebrew
-- [x] Install Common macOS Utilities
-- [x] Install diffmerge and diff-so-fancy
-- [x] Download dotfiles
-- [x] Install zsh
-- [x] Change Default Shell to zsh
-- [x] Run dotfiles Bootstrap Script
-- [x] Install Chrome
-- [x] Install Dropbox
-- [x] Install iTerm2
-- [x] Install Atom
-- [x] Install Slack
-- [x] Install Docker for Mac
-- [x] Install Node.js
-- [ ] Install Ruby
-- [x] Install Python using anaconda
-- [x] Install PowerShell
-- [x] Install Visual Studio Code
-- [x] Install VirtualBox
-- [x] Install Vagrant
-- [x] Install OmniFocus
-- [x] Install Evernote
-- [x] Install Microsoft Remote Desktop Beta
+```console
+$ wget https://github.com/frankhinek/mac-setup/archive/master.zip
+$ unzip master.zip
+$ cd mac-setup-master/
+```
+
+At this point, you might want to edit the `main.yml` file and comment
+out stuff you don't want, when you're done, simply run:
+
+```console
+$ ./setup
+```
 
 ## Thanks
 
