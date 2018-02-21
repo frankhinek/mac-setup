@@ -28,14 +28,14 @@ else
 fi
 
 # Print Python and Ansible versions
-# python --version
-# ansible --version
+python --version
+ansible --version
 
 # Exit immediately if a command exits with a non-zero status
 set -e
 
 echo "Running Ansible playbook..."
-ansible-playbook main.yml --ask-become-pass
+ansible-playbook main.yml
 
 echo "Running dotfiles bootstrap script..."
 test -d ~/.dotfiles && cd ~/.dotfiles && ./scripts/bootstrap.sh
