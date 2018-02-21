@@ -15,11 +15,19 @@
   tasks:
     # essentials:
     - include_tasks: tasks/homebrew.yml
-    - include_tasks: tasks/fonts.yml
-    - include_tasks: tasks/directories.yml
     - include_tasks: tasks/core.yml
-    - include_tasks: tasks/diff.yml
     - include_tasks: tasks/dotfiles.yml
+
+    #
+    # specific packages that can be commented out
+    #
+
+    # personalization
+    - include_tasks: tasks/directories.yml
+    - include_tasks: tasks/fonts.yml
+
+    # terminal and command line utilities
+    - include_tasks: tasks/diff.yml
     - include_tasks: tasks/zsh.yml
     - include_tasks: tasks/terminal.yml
     - include_tasks: tasks/crypto.yml
