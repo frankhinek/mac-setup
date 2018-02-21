@@ -27,6 +27,7 @@
     # common applications:
     #- include_tasks: tasks/alfred.yml
     - include_tasks: tasks/chrome.yml
+    - include_tasks: tasks/firefox.yml
     #- include_tasks: tasks/dropbox.yml
     - include_tasks: tasks/slack.yml
     - include_tasks: tasks/omnifocus.yml
