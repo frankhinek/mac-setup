@@ -1,5 +1,5 @@
-- name: Install DiffMerge
-  homebrew_cask: name=diffmerge
+- name: Install Kaleidoscope
+  homebrew_cask: name=kaleidoscope
 
 - name: Install diff-so-fancy package
   package: name=diff-so-fancy
